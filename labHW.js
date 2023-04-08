@@ -88,15 +88,3 @@ const fillClass = () => {
 fillClass();
 console.log(fillClass);
 
-// ALTERNATE SOLUTION USING .SPLICE 
-// let extraStudents = ["Bob", "Alice", "Charlie", "David", "Emily", "Frank", "George", "Hannah", "Isabelle", "Jack"];
-
-// const fillClass = () => {
-//   while (class.length < 15) {
-//     const student = extraStudents.splice(0, 1)[0];
-//     class.splice(class.length, 0, student);
-//   }
-// }
-
-// fillClass();
-// console.log(class);
